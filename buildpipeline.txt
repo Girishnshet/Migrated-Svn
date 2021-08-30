@@ -1,0 +1,34 @@
+1.CollateralWindowservice
+	##[error]The nuget command failed with exit code(1) and error(Errors in packages.config projects
+        Unable to find version '1.0.1' of package 'tmg.equinox.core'.
+        https://api.nuget.org/v3/index.json: Package 'tmg.equinox.core.1.0.1' is not found on source '
+	##[error]Packages failed to restore
+
+2.updateservicewithOFC
+	Success
+
+3.MDMdatareconliationService
+	##[error]The nuget command failed with exit code(1) and error(Errors in packages.config projects
+        Unable to find version '1.0.1' of package 'tmg.equinox.core'.
+        https://api.nuget.org/v3/index.json: Package 'tmg.equinox.core.1.0.1' is not found on source '
+	##[error]Packages failed to restore
+
+4.tmg.equinoc.core
+	(Build)##[error]tmg.equinox.core\tmg.equinox.core\tmg.equinox.core.csproj(391,5): Error : This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=317567.
+
+5.POC
+   Success,artifact generated
+
+6.tmgequinoxsqlclr
+   Success
+
+7.PBPExitValidate(2019,2020)
+	Success
+
+8.Consoleapptoupdate
+	Success,artifact generated
+
+Sln-8
+Success-5
+Error-3
+https://ROHINI.canarys.com/svn/migrationtest/trunk/PartsUnlimited-aspnet45
